@@ -1,0 +1,431 @@
+/* ------------------------------DEFAULT-------------------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.01rem;
+}
+
+.container {
+    width: 95vw;
+    text-align: left;
+    margin: auto;
+}
+
+.lg-font {
+    font-size: 3.5rem;
+}
+
+.md-fonth {
+    font-size: 2rem;
+}
+
+.md-fontp {
+    font-size: 1.6rem;
+}
+
+.sm-font {
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nobold {
+    font-weight: 500;
+}
+
+/* --------------------------------------NAVBAR--------------------------------- */
+
+.logo {
+    float: left;
+    /* width: 10%; */
+    margin: auto 0px;
+    padding-top: 15px;
+    color: #505050;
+
+}
+
+.hide {
+    display: inline;
+}
+
+.links1 {
+    float: left;
+    height: 55px;
+    padding-top: 25px;
+}
+
+.links2 {
+    float: right;
+    height: 55px;
+    padding-top: 25px;
+    margin-left: 40px;
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.listitems {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.listitems a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.listitems a:hover {
+    border-bottom: 3px solid #404040;
+    padding-bottom: 2px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #505050;
+}
+
+.navbar .logo a:hover,
+.navbar .links2 .signin a:hover {
+    border: none;
+}
+
+ /* --------------------------------------HOMEPAGE----------------------------  */
+
+
+.background {
+    background-image: url("images/img1.jfif");
+    background-size: contain;
+    background-position: right;
+    height: 60vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+.link1 {
+    color: #2159b5;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.link1:hover {
+    text-decoration: underline;
+}
+
+.section1 {
+    left: 10%;
+    top: 28%;
+    position: absolute;
+}
+
+.para1 {
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.button {
+    color: white;
+    background-color: #2159b5;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #134391;
+    text-decoration: none;
+}
+
+/* ----------------------------ICONS--------------------------------- */
+
+.container2 {
+    max-width: 800px;
+    min-height: 150px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.icons {
+    width: 25%;
+    text-align: center;
+}
+
+.icon-size {
+    font-size: 5rem;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-text {
+    color: #2159b5;
+}
+
+.link2 {
+    color: #2159b5;
+    text-decoration: none;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+/* -----------------------------------FEATURES----------------------------------- */
+
+.grid1 {
+    display: flex;
+}
+
+.columns {
+    width: 25%;
+    /* padding: 0px 10px; */
+    font-size: 1.4rem;
+}
+
+.images {
+    object-fit: contain;
+    max-width: 95%;
+    justify-self: center;
+    padding-bottom: 30px;
+}
+
+.paras {
+    max-width: 95%;
+    /* padding: 0px 0px; */
+
+}
+
+/* -----------------------------------------MICROSOFT EDGE---------------------------------- */
+
+
+.linkbox .linkbox1 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: fill;
+
+}
+
+.edgeimg {
+    width: 100%;
+    height: 100%;
+}
+
+.linkbox {
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+
+.frontlinkbox {
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    min-height: 250px;
+    min-width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.linkbox .clearhead {
+
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+    max-width: 450px;
+}
+
+.linkbox .clearbtn {
+    padding: 10px;
+    margin: 30px 0px 0px 10px;
+    color: white;
+    background-color: #2159b5;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.linkbox .clearbtn:hover {
+    background-color: #134391;
+    text-decoration: none;
+}
+
+/* ---------------------------------------FEATURES2------------------------------ */
+
+.grid2 {
+    padding-top: 80px;
+}
+
+.businesshead {
+    padding: 20px;
+}
+
+.columns .nobold {
+    font-weight: 400;
+}
+
+/* ---------------------------------------CONTACT ICONS-------------------------------- */
+
+.Cicons {
+    font-size: 2.5rem;
+    color: black;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+    padding: 0.5rem;
+}
+
+.Cicons:active,
+.Cicons:visited {
+    border: 0.3rem dotted darkblue;
+}
+
+.contacts p {
+    display: inline-block;
+    margin-top: 5rem;
+    margin-bottom: 16rem;
+}
+
+/* ---------------------------------FOOTER------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 230, 230)
+}
+
+.footerlist a:hover {
+    text-decoration: underline;
+}
+
+.footerlist a {
+    display: block;
+    text-decoration: none;
+    color: #505050;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+
+}
+
+.footerlist h3 {
+    margin-top: 3rem;
+    color: #505050;
+}
+
+.footerpara,
+.footerlist {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.footerlist a:active,
+.footerlist a:visited {
+    border: 0.3rem dotted #505050;
+}
+
+/* -------------------------------------MEDIA QUERY---------------------------------- */
+
+@media screen and (max-width: 480px) {
+    .background {
+        height: 40vh;
+        margin-bottom: 250px;
+    }
+    .section1 {
+        top: 90%;
+        left: 5%;
+        right: 5%;
+        background-color: white;
+    }
+    .section1 .media {
+        font-size: 2.7rem;
+        margin-bottom: 10px;
+    }
+    .para1 {
+        max-width: 90%;
+    }
+    .icons {
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .grid1 {
+        display: block;
+        width: 100%;
+    }
+    .columns {
+        width: 100%;
+        min-width: 90%;
+        margin-bottom: 20px;
+    }
+    .linkbox {
+        margin-bottom: 200px;
+    }
+    .frontlinkbox {
+        top: 90%;
+        left: 3%;
+        right: 3%;
+        margin: auto;
+        width: 90%;
+    }
+    .clearhead {
+        padding-top: 0px;
+    }
+    .footer {
+        display: block;
+    }
+    .footerlist {
+        display: block;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (min-device-width: 480px) and (max-device-width: 1000px) {
+    .grid1 {
+        min-width: 100%;
+        display: grid;
+        column-gap: 10%;
+        row-gap: 5%;
+        grid-template-columns: 45% 45%;
+        margin: auto;
+    }
+    .columns {
+        width: 100%;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+}
+
+
+@media screen and (max-device-width: 990px) {
+    .hide {
+        display: none;
+    }
+    .logo {
+        margin-left: 50%;
+        margin-bottom: 10px;
+        transform: translateX(-50%);
+    }
+}
